@@ -1,7 +1,7 @@
-# Пример 3.6.PP4E\System\Streams\sorter.py
+# РџСЂРёРјРµСЂ 3.6.PP4E\System\Streams\sorter.py
 
-import sys                               # или sorted(sys.stdin)
-lines = sys.stdin.readlines()            # читает входные строки из stdin,
-lines.sort()                             # сортирует их
-for line in lines: print(line, end='')   # отправляет результаты в stdout
-                                         # для дальнейшей обработки
+import sys                               # РёР»Рё sorted(sys.stdin)
+lines = sys.stdin.readlines()            # С‡РёС‚Р°РµС‚ РІС…РѕРґРЅС‹Рµ СЃС‚СЂРѕРєРё РёР· stdin,
+lines.sort()                             # СЃРѕСЂС‚РёСЂСѓРµС‚ РёС…
+for line in lines: print(line, end='')   # РѕС‚РїСЂР°РІР»СЏРµС‚ СЂРµР·СѓР»СЊС‚Р°С‚С‹ РІ stdout
+                                         # РґР»СЏ РґР°Р»СЊРЅРµР№С€РµР№ РѕР±СЂР°Р±РѕС‚РєРё
